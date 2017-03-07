@@ -80,12 +80,21 @@ $(function(){
 	});
 
 	/* 隐藏分享窗口 */
-	$(".modal-root").on("click", ".share-folder-modal-wrap .hicon.icon-close.dialog-close-btn", function(){
+	$("body").on("click", ".modal-root .share-folder-modal-wrap .hicon.icon-close.dialog-close-btn", function(){
 		$(".modal-root").html("");
+	})
+	/* 点击遮罩隐藏窗口 */
+	$("body").on("click", ".modal-root .shimo-modal-overlay", function(event){
+		$(".modal-root").html("");
+	})
+	/* 阻止冒泡 */
+	$("body").on("click", ".modal-root .shimo-modal-overlay .share-folder-modal-wrap", function(event){
+		// console.log('inner');
+		event.stopPropagation();
 	})
 
 	/* 开始分享按钮点击事件 */
-	$(".modal-root").on("click", "#shareFolder", function(){
+	$("body").on("click", ".modal-root #shareFolder", function(){
 		$("#shareFolder").attr("disabled", true);
 		addLog("开始分享...");
 		var folderId = $(this).data('id');
@@ -93,7 +102,7 @@ $(function(){
 	})
 
 	/* 取消分享按钮点击事件 */
-	$(".modal-root").on("click", "#cancelShareFolder", function(){
+	$("body").on("click", ".modal-root #cancelShareFolder", function(){
 		$("#cancelShareFolder").attr("disabled", true);
 		addLog("正在取消分享...");
 		var folderId = $(this).data('id');
@@ -101,7 +110,7 @@ $(function(){
 	})
 
 	/* 更新分享按钮点击事件 */
-	$(".modal-root").on("click", "#updateShareFolder", function(){
+	$("body").on("click", ".modal-root #updateShareFolder", function(){
 		$("#updateShareFolder").attr("disabled", true);
 		addLog("正在更新分享...");
 		var folderId = $(this).data('id');
