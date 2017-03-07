@@ -1,0 +1,262 @@
+.share-folder .list-menu-item-icon.menu-share-folder-icon{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABJklEQVQ4T62V0VHDMBBEdysgHZAS6CApIVRgVAHpAKeCuINzOoFKMB1ABcucR5pJHCkoGvxnj/V8e7t3JhovM1uRPALYAfgmOXZdd2AjD2b2TnJzfl5SG9DM1iQ/M8VMTRWa2QtJWwIl/dwFNLMtyTcA21yrJJ2qgEuQpC8AA4A9yUeHS/pwg24CC6A+hDCmCs3syV0OIUz+jNF+l7GPL7l7gyS/n6XFii5ApXQ4cCD5WuiJS6sCpfMO9FA+ZBw7hBD6e3NaBJLsPfktwKJkAFMEn2rBsynep9THaH+KRBqtavCfsYkfK4KvYlMjxfOYAadorVPcJD1XTcpZiJfgi3qqR2+porQc5r1YIzkDzK4vn6gmoH/gXxdsBHrcPF7zLwDA6JP1C7Q2oLvQTs9wAAAAAElFTkSuQmCC);
+	background-size: 14px 14px;
+	background-position: 3px;
+}
+
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap{
+	margin-left: -240px; 
+	margin-top: -150px;
+	height: 300px;
+	width: 480px;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog{
+	width: 480px;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body{
+	height:212px;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body .btn-wrap{
+	width: 120px;
+	height: 120px;
+	padding: 0 20px;
+	float: left;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body .btn-wrap strong{
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body .btn-wrap #cancelShareFolder{
+	margin-top: 8px;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body .help-wrap{
+	width: 300px;
+	height: 120px;
+	padding: 0 10px;
+	float: right;
+	text-align: left;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body .help-wrap li{
+	line-height: 16px;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .dialog-body .log-wrap{
+	clear: both;
+	width: 420px;
+	max-height: 80px;
+	padding: 10px 30px;
+	overflow-y: auto;
+	color: #999;
+	line-height: 16px;
+	border-top: 1px solid #ddd;
+}
+.shimo-modal-overlay .dialog-wrap.share-folder-modal-wrap .sm-btn{
+	line-height: 30px;
+}
+
+/* css3 loading */
+.loadingWrap{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #F1F0F1;
+	display: none;
+	z-index: 999;
+}
+.loadingWrap .load-container {
+	width: 240px;
+	height: 240px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin: -120px 0 0 -120px;
+	overflow: hidden;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.loadingWrap .load-container .loader {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+.load6 .loader {
+	font-size: 90px;
+	text-indent: -9999em;
+	overflow: hidden;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	margin: 0.8em auto;
+	position: relative;
+	-webkit-animation: load6 1.7s infinite ease;
+	animation: load6 1.7s infinite ease;
+}
+@-webkit-keyframes load6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.11em -0.83em 0 -0.42em #333333, -0.11em -0.83em 0 -0.44em #333333, -0.11em -0.83em 0 -0.46em #333333, -0.11em -0.83em 0 -0.477em #333333;
+  }
+  5%,
+  95% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.11em -0.83em 0 -0.42em #333333, -0.11em -0.83em 0 -0.44em #333333, -0.11em -0.83em 0 -0.46em #333333, -0.11em -0.83em 0 -0.477em #333333;
+  }
+  30% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.51em -0.66em 0 -0.42em #333333, -0.75em -0.36em 0 -0.44em #333333, -0.83em -0.03em 0 -0.46em #333333, -0.81em 0.21em 0 -0.477em #333333;
+  }
+  55% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.29em -0.78em 0 -0.42em #333333, -0.43em -0.72em 0 -0.44em #333333, -0.52em -0.65em 0 -0.46em #333333, -0.57em -0.61em 0 -0.477em #333333;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.11em -0.83em 0 -0.42em #333333, -0.11em -0.83em 0 -0.44em #333333, -0.11em -0.83em 0 -0.46em #333333, -0.11em -0.83em 0 -0.477em #333333;
+  }
+}
+@keyframes load6 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.11em -0.83em 0 -0.42em #333333, -0.11em -0.83em 0 -0.44em #333333, -0.11em -0.83em 0 -0.46em #333333, -0.11em -0.83em 0 -0.477em #333333;
+  }
+  5%,
+  95% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.11em -0.83em 0 -0.42em #333333, -0.11em -0.83em 0 -0.44em #333333, -0.11em -0.83em 0 -0.46em #333333, -0.11em -0.83em 0 -0.477em #333333;
+  }
+  30% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.51em -0.66em 0 -0.42em #333333, -0.75em -0.36em 0 -0.44em #333333, -0.83em -0.03em 0 -0.46em #333333, -0.81em 0.21em 0 -0.477em #333333;
+  }
+  55% {
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.29em -0.78em 0 -0.42em #333333, -0.43em -0.72em 0 -0.44em #333333, -0.52em -0.65em 0 -0.46em #333333, -0.57em -0.61em 0 -0.477em #333333;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    box-shadow: -0.11em -0.83em 0 -0.4em #333333, -0.11em -0.83em 0 -0.42em #333333, -0.11em -0.83em 0 -0.44em #333333, -0.11em -0.83em 0 -0.46em #333333, -0.11em -0.83em 0 -0.477em #333333;
+  }
+}
+/* 顶部 */
+.headerWrap{
+	width: 100%;
+	height: 90px;
+	-ms-box-shadow: 0 2px 3px 0 hsla(0,0%,39%,.15);
+    -o-box-shadow: 0 2px 3px 0 hsla(0,0%,39%,.15);
+    box-shadow: 0 2px 3px 0 hsla(0,0%,39%,.15);
+	background: #fff;
+	background: -webkit-linear-gradient(top,#fdfdfd,#fff);
+}
+#header .home-link{
+	position: static;
+}
+/* 列表为空 */
+.list-empty {
+    margin-top: 236px;
+}
+.list-empty-icon {
+    height: 80px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://assets-cdn.shimo.im/assets/images/list_empty-beb8604afd.png);
+    background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.list-empty-text {
+    margin-top: 16px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #dbdbdb;
+    text-align: center;
+}
+/* 面包屑 */
+.crumbWrap{
+	width: 779px;
+	margin: 0 auto;
+}
+/* 列表 */
+.children{
+	width: 779px;
+	margin: 20px auto;
+}
+.children ul li{
+	width: 122px;
+	height: 126px;
+	cursor: pointer;
+    float: left;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin:8px 0 8px 8px;
+}
+.children ul li:hover{
+	border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    background: #f3f4f5;
+}
+.children ul li i{
+	width: 60px;
+    height: 80px;
+    background: url(https://assets-cdn.shimo.im/assets/images/file_folder_sprite-932f44527e.png) no-repeat;
+    background-size: 160px 220px;
+    display: block;
+    margin: 7px auto 0 auto;
+}
+.children ul li.doc i{
+    background-position: -10px -60px;
+}
+.children ul li.xls i{
+    background-position: -10px -140px;
+}
+.children ul li.folderItem i{
+	width: 80px;
+	height: 60px;
+	margin: 16px auto 10px;
+}
+.children ul li a{
+	width: 112px;
+    height: 126px;
+    display: block;
+    line-height: 18px;
+    padding: 0 5px;
+    overflow: hidden;
+    /*display: -webkit-box;*/
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; */
+}
+
+/* popup.html */
+#popupWrap{
+
+}
+#popupWrap ul{
+	margin: 0;
+	padding: 0;
+}
+#popupWrap ul li{
+	list-style-type: none;
+	width: 120px;
+	height: 30px;
+}
+#popupWrap ul li a{
+	width: 100%;
+	display: block;
+	background: url(https://dn-shimo-image.qbox.me/lSvreTTqTrU4qHDA/GitHub-Mark.png) no-repeat;
+	background-size: 30px;
+	background-position: left center;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 35px;
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+}
+#popupWrap ul li a.howtouse{
+	background-image: url(https://dn-shimo-image.qbox.me/MBsYJazttoU6uKOJ/how2use.png);
+	background-size: 25px;
+}
