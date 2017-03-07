@@ -4,7 +4,11 @@
 
 效果：
 
-![](https://dn-shimo-image.qbox.me/7T2FaDMtF8416ipF/image.gif)
+![](https://dn-shimo-image.qbox.me/QsPuYwbBvM0aqojx/share.gif)
+
+![](https://dn-shimo-image.qbox.me/pUuu8vHFLJ4W4QzA/shared.gif)
+
+![](https://dn-shimo-image.qbox.me/wwXAMO5Ys58lfQIm/cancel.gif)
 
 ## 说明
 
