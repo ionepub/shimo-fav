@@ -1,5 +1,21 @@
 # 石墨文档“文件夹分享”插件
 
+## 2017-03-17 更新
+
+因为这个插件没人在用，所以决定关闭服务器，并将服务端代码开源。
+
+服务端代码：https://github.com/ionepub/shimo-fav-server
+
+如果有需要的，可以自己搭建一个服务端。
+
+**自己搭建的服务端，只需要修改`/js/background.js`中的`baseUrl`变量值为自己的服务端地址即可。**
+
+```javascript
+var baseUrl = "http://shimofav.applinzi.com/";
+```
+
+---------------
+
 这是一个chrome浏览器扩展程序，使用它可以便捷地分享石墨文档(https://shimo.im)的文件夹中所有非私有的文档。
 
 效果：
